@@ -1,12 +1,15 @@
 # Team-Profile-Generator
 
-## Your Task
+## Description
+Application runs in the CLT, and after user input, generates team profiles using javascript.
 
-Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
+These generated profiles are then published via HTML and stylized via CSS
 
-Because this application won’t be deployed, you’ll need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You’ll need to submit a link to the video AND add it to the readme of your project.
-
-> **Note**: There is no starter code for this assignment.
+## Table of Contents
+* [User Story](#userstory)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
 
 ## User Story
 
@@ -38,13 +41,24 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
-## Mock-Up
+## Installation 
+user clones repo from github, and then downloads Node. Inquirer module is required to download using 
 
-The following image shows a mock-up of the generated HTML’s appearance and functionality:
+```
+npm i inquirer
+```
 
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/10-object-oriented-programming-homework-demo.png)
+## Mock Up
 
-The styling in the image is just an example, so feel free to add your own.
+Below is a mock up of the application after being ran
+<img src="./assets/images/mockup.png">
+
+## Usage
+Through inquirer, the user will be prompted with questions, after which the applicatoin will create team profiles.
+Demo Video -> (https://drive.google.com/file/d/1a1mC-lu0aOrr8osLNE0SlADC2nSpaFDK/view?usp=sharing)
+
+## Tests
+Run `npm test` in order to test application.
 
 ## Getting Started
 
