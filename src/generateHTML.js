@@ -119,7 +119,6 @@ const generateTeamPage = function (employeeCards) {
         <div class="container">
             <div class="row">
                 <div class="team-area col-16 d-flex justify-content-center">
-
                 ${employeeCards}
       
   </body>
